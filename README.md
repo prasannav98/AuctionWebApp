@@ -1,8 +1,8 @@
-# 🛍️ Realtime Auction Web App
+# Realtime Auction Web App
 
 This is a real-time auction web application built with **Flask** and **Socket.IO**, enabling live bidding on items. The app supports an **admin user** who can start/end auctions and **authenticated users** who can place bids. The UI is styled with **Bootstrap 5**, and auction updates are pushed in real-time to all connected clients.
 
-## 🚀 Features
+##  Features
 
 - Real-time bidding with live updates using Socket.IO
 - Admin control panel to start and end auctions
@@ -11,13 +11,13 @@ This is a real-time auction web application built with **Flask** and **Socket.IO
 - Auto-scroll to auction results after auction ends
 - Simple and clean Bootstrap-based interface
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Backend**: Python, Flask, Flask-SocketIO
 - **Frontend**: HTML, Jinja2 Templates, Bootstrap 5, JavaScript
 - **Socket Communication**: Flask-SocketIO
 
-## 👤 Users
+##  Users
 
 - **Admin**
   - Username: `admin`
@@ -29,7 +29,7 @@ This is a real-time auction web application built with **Flask** and **Socket.IO
 
 (Users are pre-defined in the `app.py` file. In a real-world app, this would be backed by a database.)
 
-## 📂 File Structure
+##  File Structure
 
 ├── app.py                  # Flask backend and routing logic
 ├── templates/
@@ -39,7 +39,7 @@ This is a real-time auction web application built with **Flask** and **Socket.IO
 
 
 
-## 🔧 How to Run
+##  How to Run
 
 1. **Install dependencies**:
     ```bash
@@ -54,20 +54,13 @@ This is a real-time auction web application built with **Flask** and **Socket.IO
 3. **Visit the app**:
     Open your browser and go to [http://localhost:5001](http://localhost:5001)
 
-## 📸 Screenshots
-
-- ✅ Login with user ID
-- 🕑 See current bid and countdown
-- 💰 Admin can start/end auctions
-- 🏆 Winner and bid history shown after auction ends
-
-## ⚠️ Notes
+## Notes
 
 - This app uses in-memory state (Python dictionaries) for simplicity.
 - All auction data is lost when the server restarts.
 - No persistent database or password hashing is used—this is intended for demonstration purposes only.
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Add persistent storage (e.g., SQLite, PostgreSQL)
 - Add user registration and password hashing
